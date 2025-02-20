@@ -1,20 +1,14 @@
 a:link {
     color: aquamarine;
     text-decoration: overline;
-    text-align: center;
+ 
 }
 
-
-main {
-
-    color: antiquewhite;
-    background-color: black;
-}
 
 header {
     background-color: white;
     position: fixed;
-    top: 0;
+    top: 10px;
     left: 0;
     right: 0;
     height: 80px;
@@ -24,8 +18,21 @@ body {
     background-image: ;
     background-size: cover;
     font-family: sans-serif;
-    margin-top: 80px;
-    padding: 50px;
+    margin-top: 100px;
+    margin-left: 20px;
 }
 
-header* {display: inline;}
+header * {display: inline;}
+
+header li {
+    margin: 5px;
+}
+
+img { 
+    height: 300px;
+}
+
+.imgdrawing {
+    height: 700px;
+    align-items: center;
+}
