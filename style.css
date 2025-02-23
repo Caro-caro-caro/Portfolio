@@ -1,9 +1,9 @@
 a:link {
     color: aquamarine;
     text-decoration: overline;
+    
  
 }
-
 
 header {
     background-color: white;
@@ -12,27 +12,101 @@ header {
     left: 0;
     right: 0;
     height: 80px;
+ 
+}
+
+.nav {
+    display: flex;
+
+    
 }
 
 body {
-    background-image: ;
     background-size: cover;
     font-family: sans-serif;
     margin-top: 100px;
     margin-left: 20px;
 }
 
-header * {display: inline;}
+header * {
+    display: inline;
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: center;
+}
+   
+
+h2 { 
+    text-align: center;
+}
 
 header li {
     margin: 5px;
 }
 
-img { 
-    height: 300px;
+.body{
+    display: flex
+
+}
+.resize {
+    width:430px;
+    height:300px;
+   margin-left: 300px;
 }
 
+
 .imgdrawing {
+   
     height: 700px;
-    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
 }
+
+.portfolio {
+    text-align: center;
+ 
+}
+
+.div1 {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   -ms-flex-align: center;
+  
+}
+
+.abouttext {
+    position: relative;
+
+
+}
+
+.about {
+
+    z-index: 3;
+    color: antiquewhite;
+    font-size: larger;
+    text-align: center;
+    margin-top: -100px;
+   
+    
+}
+
+.form {
+    display: flex;
+    text-align: center;
+    margin-left: 410px;
+    
+}
+
+@media (min-width: 480px){
+    body { background-color: white;}
+  }
+  
+  @media (min-width: 768px){
+    body { background-color: rgb(207, 141, 198)}
+  }
+  
+  @media (min-width: 992px){
+     body { background-color: rgb(227, 52, 52)}
+  }
