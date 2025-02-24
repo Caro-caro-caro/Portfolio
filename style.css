@@ -92,6 +92,16 @@ header li {
     
 }
 
+a:link,
+a:visited {
+  color: rgb(91, 221, 230);
+
+}
+
+a:hover {
+  color: hotpink;
+}
+
 .form {
     display: flex;
     text-align: center;
@@ -99,14 +109,18 @@ header li {
     
 }
 
+.success {
+    font-size: larger;
+}
+
 @media (min-width: 480px){
-    body { background-color: white;}
+     body { background-color: white;}
   }
   
   @media (min-width: 768px){
-    body { background-color: rgb(207, 141, 198)}
+    body { background-color: rgb(221, 195, 217)}
   }
   
   @media (min-width: 992px){
-     body { background-color: rgb(227, 52, 52)}
+     body { background-color: rgb(4, 52, 243)}
   }
