@@ -40,6 +40,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 150%;
+}
+
 header li {
     margin: 5px;
 }
@@ -66,6 +70,12 @@ header li {
 
 .bear {
     height: 300px
+}
+
+.portfoliio {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 
